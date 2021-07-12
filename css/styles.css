@@ -1,15 +1,23 @@
 body {
-  position: relative;
   width: 1600px;
   height: 1880px;
 
   background: #ffffff;
   color: #212121;
   font-family: "Roboto", "Raleway", sans-serif;
+  --main-font: "Roboto", "Open Sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #212121;
+  --secondary-color: #2196f3;
+  --third-color: #ffffff;
+  --additional-color:  #757575;
 }
 
-h1,
-h2,
+.margintop {
+  margin-top: 94px;
+}
+
+h1 h2,
 h3,
 h4,
 h5,
@@ -18,7 +26,8 @@ h6 {
   padding: 0;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0;
   padding: 0;
 }
@@ -70,6 +79,34 @@ img {
 .hero {
   background-color: #2f303a;
   color: #ffffff;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-button {
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-title {
+  width: 696px;
+  height: 120px;
+  padding-bottom: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* end hero */
@@ -150,6 +187,51 @@ a:focus {
 /* end menu style */
 
 /* main pages style */
+/* === ABOUT US === */
+
+.about-us-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-item:not(:last-child) {
+  margin-right: 30px;
+}
+.about-us-item {
+  width: 270px;
+  height: 101px;
+}
+
+.title-about {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.text {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* === END ABOUT US === */
+
+/* === WORK === */
+
+.work {
+  display: flex;
+  justify-content: center;
+}
+
+/* === END WORK === */
 button {
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -190,9 +272,6 @@ p {
 .title {
 }
 
-.text {
-  color: #757575;
-}
 /* end main pages style */
 /* footer */
 
