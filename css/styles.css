@@ -227,8 +227,25 @@ a:focus {
 /* === WORK === */
 
 .work {
+  margin-top: 94px;
+;
+}
+
+.title-work {
+font-family: Roboto;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-color)
+}
+
+.work-list {
   display: flex;
-  justify-content: center;
+}
+
+.work-list li {
+  padding-left: 30px;
 }
 
 /* === END WORK === */
