@@ -320,7 +320,7 @@ p {
 }
 
 .logo-color-header {
-  color: #000000;
+  color: var(--secondary-color);
 }
 
 .logo-color-footer {
@@ -332,11 +332,11 @@ p {
 
 .footer {
   text-decoration: none;
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .footer .container {
- padding-top: 60px;
+  padding-top: 60px;
 }
 
 .footer .item:first-child {
@@ -354,7 +354,6 @@ p {
   list-style: none;
 }
 .footer-address {
- 
 }
 
 .logo-footer {
@@ -367,8 +366,9 @@ p {
   color: var(--third-color);
 }
 
+.logo-footer:hover {
+  color: var(--secondary-color);
 }
-
 
 .footer {
   background-color: #2f303a;
