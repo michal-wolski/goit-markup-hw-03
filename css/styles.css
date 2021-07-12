@@ -8,11 +8,46 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
 .container {
-  max-width: 1200px;
-  padding: 5px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1170px;
+  padding: 0 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* header */
@@ -74,7 +109,6 @@ h1 {
   display: flex;
   justify-content: center;
   text-align: left;
-  text-decoration: none;
   list-style-type: none;
   width: 1170px;
   height: 101px;
@@ -115,20 +149,20 @@ h1 {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  text-decoration: none;
+  
 }
 
 .menu {
   display: inline;
   list-style-type: none;
-  text-decoration: none;
+  
   
 }
 
 .nav-bar {
   display: inline;
   list-style-type: none;
-  text-decoration: none;
+  
   
   
 }
@@ -144,7 +178,7 @@ a {
   list-style-type: none;
   line-height: 16px;
   letter-spacing: 0.02em;
-  text-decoration: none;
+  
 }
 
 a:hover,
@@ -158,7 +192,7 @@ a:focus {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
-  text-decoration: none;
+  
 }
 
 .mail:hover,
@@ -172,7 +206,7 @@ a:focus {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
-  text-decoration: none;
+  
   flex-basis: 110px;
 }
 
