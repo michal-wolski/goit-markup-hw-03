@@ -11,10 +11,16 @@ body {
   --secondary-color: #2196f3;
   --third-color: #ffffff;
   --additional-color: #757575;
+  --bgbutton-portfolio: #f5f4fa;
 }
 
 .margintop {
   margin-top: 94px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 h1 h2,
@@ -295,12 +301,39 @@ button:hover {
   background-color: #2196f3;
   color: #ffffff;
 }
+/* === PORTFOLIO === */
 
-.filter {
-  font-family: inherit;
-  font-size: 16px;
-  font-weight: 500;
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
 }
+
+.filters .item:not(:last-child) {
+  margin-right: 9px;
+}
+
+.filters .button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  height: 38px;
+  background-color: var(--bgbutton-portfolio);
+  border-style: none;
+  box-shadow: none;
+  padding: 6px 22px 6px 22px;
+}
+
+.filters .button:hover,
+.filters .button:focus {
+  background-color: var(--secondary-color);
+  color: var(--third-color);
+}
+
+
 .filter:active {
   color: #2196f3;
 }
@@ -308,7 +341,7 @@ button:hover {
 .portfolio {
   list-style-type: none;
 }
-
+/* === END PORTFOLIO === */
 h2 {
   font-size: 18px;
   line-height: 2;
